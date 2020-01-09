@@ -44,7 +44,7 @@ python app.py -i input_images/back-view-photo-of-man-standing-on-sidewalk-lookin
  
 
 ## Data
-Input images are provided in input_images folder. Pedestrains are detected on these images with rectangular bounding box and generate output image can be located in output_images folder. 
+Input images are provided in input_images folder. Pedestrains are detected on these images with rectangular bounding box and generated output image can be located in output_images folder. 
 
 
 ## Data Preprocessing 
@@ -62,7 +62,7 @@ Model can be downloaded from Openvino website - https://docs.openvinotoolkit.org
 
 
 ## Observation
-Bounding box can be clearly seen on pedestrain on givem image. There are some limitations to this detection listed below 
+Bounding box can be clearly seen on pedestrain on given image. There are some limitations to this detection listed below 
 - pedestrain facing backwards are not predicted successfully. 
 - pedestrain far behind in image are also ignored as confidence threshold is set too high = 0.8. Lower confidence can increase probability of detecting pedestrains far behind in this image.
 
